@@ -15,7 +15,7 @@
     };
 
     var onError = function(response) {
-      $scope.error = "Coult not fetch the user";
+      $scope.error = "Could not fetch the user";
     };
 
     $log.info("routeParams:" + $routeParams.username);
